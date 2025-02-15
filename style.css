@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik';
+}
+
+.bg1 {
+    background: url(assets/background1.jpg) no-repeat center center;
+    background-size: cover; 
+    height: 100vh;
+}
+
+.main-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    position: relative;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 3em;
+    font-weight: bold;
+    background: linear-gradient(to right, #055876, #458EA2,  #00ECEC);
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-left: 30px;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    height: 8vh;
+    align-items: center;
+    font-size: 1.2em;
+    background: linear-gradient(to right, #458EA2, #00AAE1);
+    padding: 10px 20px;
+    border-top-left-radius: 5vh;
+    border-bottom-left-radius: 5vh;
+}
+
+.navbar nav ul li {
+    margin: 0 15px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.navbar nav ul li .kontak {
+    background-color: #F2FFFA;
+    color: #005D7B;
+    padding: 5px 10px;
+    border-radius: 8vh;
+}
+
+#hamburger {
+    font-size: 32px;
+    cursor: pointer;
+    display: none;
+    color: #055876;
+}
+
+#beranda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15vh;
+}
+
+.layout {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding-bottom: 2vh;
+    gap: 2vh;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    padding-bottom: 2.5vh;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+.warna {
+    color: #007b8f;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.5em;
+    padding-bottom: 7vh;
+}
+
+.button {
+    width: 200px;
+    display: inline-block;
+    background-color: #007b8f;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin: auto;
+}
+
+.button:hover {
+    background-color: #005f6b;
+}
+
+h3 {
+    font-family: 'Edu QLD Beginner';
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+#tentang {
+    background: url(assets/backround2.jpg) no-repeat center center;
+    background-size: cover; 
+    height: 100vh;
+}
+
+.gambar {
+    width: 80vh;
+}
+
+.gambar img {
+    width: 68vh;
+}
+
+.container-tentang {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.profil {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.teks {
+    width: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2vh;
+}
+
+.item {
+    width: 95vh;
+    background: #F2F6F8;
+    justify-items: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 1vh;
+}
+
+.item p {
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.4em;
+}
+
+#portofolio {
+    background: url(assets/background3.jpg) no-repeat center center;
+    background-size: cover; 
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-porto {
+    background: #F2F6F8;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 10px 0;
+}
+
+.main-porto img {
+    width: auto;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.porto-item a {
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+footer {
+    background: #005279;
+    font-size: 1em;
+    color: #ffffff;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background: #F2FFFA;
+    }
+
+    .logo a {
+        font-size: 5vh;
+    }
+
+    .navbar {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        height: 65vh;
+        background: #005D7B;
+        text-align: center;
+    }
+
+    .navbar nav ul {
+        flex-direction: column;
+        border-radius: 0;
+        height: 15vh;
+        background: #0082ae;
+        padding: 0;
+    }
+
+    .navbar nav ul li {
+        margin: 10px 0;
+    }
+
+    #hamburger {
+        display: block;
+    }
+
+    #hamburger:active + .navbar,
+    #hamburger:hover + .navbar {
+        display: block;
+    }
+
+    #beranda {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    .warna {
+        font-size: 1.3em;
+    }
+
+    p {
+        font-size: 1em;
+        padding-bottom: 10vh;
+    }
+
+    .button {
+        width: 90%;
+        font-size: 1em;
+        padding: 8px 15px;
+    }
+
+    #tentang {
+        margin: auto;
+        padding: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    .container-tentang {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .gambar {
+        width: 100%;
+    }
+
+    .gambar img {
+        width: 40vh;
+    }
+
+    .profil {
+        width: 100%;
+    }
+
+    .teks {
+        width: 45vh;
+        display: flex;
+        flex-direction: column;
+        padding-top: 1vh;
+    }
+
+    .item {
+        width: 55vh;
+        padding: 10px;
+    }
+
+    .item p {
+        font-size: 1em;
+    }
+
+    h4 {
+        font-size: 1.2em;
+    }
+
+    .main-porto {
+        gap: 15px;
+    }
+
+    .main-porto img {
+        height: 180px;
+    }
+
+}
