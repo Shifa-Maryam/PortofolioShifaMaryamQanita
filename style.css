@@ -344,8 +344,7 @@ footer {
     }
 
     #portofolio {
-        margin: auto;
-        padding: auto;
+        margin-top: 100vh;
         justify-content: center;
         align-items: center;
     }
