@@ -197,6 +197,7 @@ h4 {
 
 .main-porto {
     background: #F2F6F8;
+    border-radius: 5px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: flex-start;
@@ -215,7 +216,7 @@ h4 {
 .porto-item a {
     color: #000000;
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
 footer {
@@ -231,7 +232,7 @@ footer {
     }
 
     .logo a {
-        font-size: 5vh;
+        font-size: 3vh;
     }
 
     .navbar {
@@ -239,17 +240,16 @@ footer {
         position: absolute;
         top: 60px;
         left: 0;
-        width: 100%;
-        height: 20vh;
-        background: #005D7B;
+        width: 30%;
+        height: auto;
         text-align: center;
+        margin-left: 65%;
     }
 
     .navbar nav ul {
+        height: auto;
         flex-direction: column;
-        border-radius: 0;
-        height: 15vh;
-        padding: 0;
+        font-size: 0.5em;
     }
 
     .navbar nav ul li {
@@ -307,31 +307,26 @@ footer {
         width: 100%;
         display: flex;
         flex-direction: column;
-        margin: auto;
     }
 
     .gambar {
         width: 100%;
-        margin: auto;
+        margin-left: 150px;
     }
 
     .gambar img {
-        width: 40vh;
-    }
-
-    .profil {
-        width: 100%;
+        width: 150px;
     }
 
     .teks {
-        width: 45vh;
+        width: 35vh;
         display: flex;
         flex-direction: column;
         padding-top: 1vh;
     }
 
     .item {
-        width: 55vh;
+        width: 40vh;
         padding: 10px;
     }
 
@@ -344,7 +339,7 @@ footer {
     }
 
     #portofolio {
-        margin-top: 70vh;
+        margin-top: 150vh;
         justify-content: center;
         align-items: center;
     }
@@ -356,5 +351,4 @@ footer {
     .main-porto img {
         height: 180px;
     }
-
 }
