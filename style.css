@@ -226,6 +226,136 @@ footer {
     text-align: center;
 }
 
+@media screen and (max-width: 780px) {
+    body {
+        background: #F2FFFA;
+    }
+
+    .logo a {
+        font-size: 4vh;
+    }
+
+    .navbar {
+        display: none;
+        position: absolute;
+        top: 60px;
+        width: 50%;
+        height: auto;
+        text-align: center;
+        left: 25%;
+    }
+
+    .navbar nav ul {
+        height: auto;
+        flex-direction: column;
+        font-size: 0.9em;
+    }
+
+    .navbar nav ul li {
+        margin: 15px 0;
+    }
+
+    #hamburger {
+        display: block;
+    }
+
+    #hamburger:active + .navbar,
+    #hamburger:hover + .navbar {
+        display: block;
+    }
+
+    #beranda {
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    .warna {
+        font-size: 1.6em;
+    }
+
+    p {
+        font-size: 1.2em;
+        padding-bottom: 10vh;
+    }
+
+    .button {
+        width: 80%;
+        font-size: 1.2em;
+        padding: 10px 20px;
+    }
+
+    .gambar {
+        width: 80vh;
+    }
+    
+    .gambar img {
+        width: 68vh;
+    }
+    
+    .container-tentang {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .profil {
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+    }
+    
+    .teks {
+        width: 50vh;
+        display: flex;
+        flex-direction: column;
+        padding-top: 2vh;
+    }
+    
+    .item {
+        width: 70vh;
+        background: #F2F6F8;
+        justify-items: center;
+        align-items: center;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        padding: 1vh;
+    }
+    
+    .item p {
+        font-size: 1.1em;
+        text-align: justify;
+    }
+    
+    h4 {
+        text-align: center;
+        font-size: 1.4em;
+    }
+
+    #portofolio {
+        margin-top: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-porto {
+        gap: 20px;
+    }
+
+    .main-porto img {
+        height: 250px;
+    }
+}
+
 @media screen and (max-width: 480px) {
     body {
         background: #F2FFFA;
@@ -239,11 +369,10 @@ footer {
         display: none;
         position: absolute;
         top: 60px;
-        left: 0;
         width: 30%;
         height: auto;
         text-align: center;
-        margin-left: 65%;
+        left: 65%;
     }
 
     .navbar nav ul {
@@ -274,15 +403,15 @@ footer {
     }
 
     h2 {
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
 
     .warna {
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
 
     p {
-        font-size: 1em;
+        font-size: 0.7em;
         padding-bottom: 10vh;
     }
 
